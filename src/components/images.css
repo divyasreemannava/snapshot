@@ -1,0 +1,19 @@
+.image{
+    display:flex;
+   flex-wrap: wrap;
+   width:1000px;
+   justify-content: flex-start;
+   gap:10px;
+   margin-left: 15%;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+}
+.title{
+    display: block;
+    margin-left: 40%;
+    margin-right: 40%;
+    color: rgb(21, 0, 139);
+}
