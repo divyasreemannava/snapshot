@@ -19,7 +19,7 @@ const Search = ()=>{
     
     return (
         <>
-            <Header function = {setInput} />
+            <Header function = {setInput} trigger={setsearch} value={search}/>
             <div className="image">
                 {input?<h2 className="title">{input} pictures</h2>:""}
             
